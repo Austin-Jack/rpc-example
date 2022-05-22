@@ -1,0 +1,9 @@
+rpc:
+  registry:
+    zookeeper:
+      peers:
+        - '47.106.221.6:9990'
+  client:
+    urls:
+      - localhost:10000
+  connect-mod: registry
